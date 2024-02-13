@@ -10,6 +10,7 @@ pip install -r requirements.txt
 
 ## Contents
 So far, this repo includes the following:
-1. `get_manifestos.ipynb`: Extracting the **raw text from party manifestos** ("Parteiprogramme) in PDF format.
-2. `get_wahlomat_responses.ipynb`: Extracting the **statements and responses from the "Wahl-O-Mat" tool** for voter decision-making. Potentially useful for generating prompts and for a "ground truth" response of a party.
-3. `rag.ipynb`: A basic exploration of **retrieval-augmented generation (RAG)** within this context.
+1. `get_bundestag_protocols.ipynb`: Pulling parliament protocols via the Bundestag API.
+2. `get_party_manifestos.ipynb`: Extracting the **raw text from party manifestos** ("Parteiprogramme) in PDF format.
+3. `get_wahlomat_responses.ipynb`: Extracting the **statements and responses from the "Wahl-O-Mat" tool** for voter decision-making. Potentially useful for generating prompts and for a "ground truth" response of a party.
+4. `rag.ipynb`: A basic exploration of **retrieval-augmented generation (RAG)** within this context.
